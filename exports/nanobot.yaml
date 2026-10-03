@@ -1,4 +1,0 @@
-spec: nanobot/v1
-name: drug-target-binding-affinity-predictor
-runtime: python3.11
-entrypoint: agent.py

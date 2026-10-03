@@ -1,17 +1,25 @@
 ---
-name: "3d-protein-ligand-affinity-scoring"
-description: "Evaluates atomic coordinate distance tensors and electrostatic potential surfaces at binding sites"
-version: "1.0.0"
-category: "healthcare"
+name: 3d-protein-ligand-affinity-scoring
+description: Specialized capability for Drug Target Binding Affinity Predictor.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: healthcare
 ---
 
-# Skill: 3d-protein-ligand-affinity-scoring
+# Drug Target Binding Affinity Predictor — 3D PROTEIN LIGAND AFFINITY SCORING Skill
 
-## Overview
-Evaluates atomic coordinate distance tensors and electrostatic potential surfaces at binding sites.
+## Purpose
+The `3d-protein-ligand-affinity-scoring` capability provides high-assurance execution routines for `Drug Target Binding Affinity Predictor`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.

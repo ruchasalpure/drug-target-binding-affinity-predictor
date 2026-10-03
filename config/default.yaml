@@ -1,6 +1,0 @@
-app:
-  name: "drug-target-binding-affinity-predictor"
-  environment: "production"
-  logging:
-    level: "INFO"
-    format: "json"
