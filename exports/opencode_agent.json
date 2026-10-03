@@ -1,0 +1,8 @@
+{
+  "agent_id": "drug-target-binding-affinity-predictor",
+  "protocol": "opencode/v1",
+  "capabilities": [
+    "autonomous",
+    "governed"
+  ]
+}

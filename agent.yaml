@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "drug-target-binding-affinity-predictor"
+version: "1.0.0"
+category: "healthcare"
+author: "Rucha Salpure"
+description: "Predicts small molecule binding affinity (Kd, Ki) to target receptor pockets using 3D structural protein-ligand equivariant graph neural networks"
+capabilities:
+  - "3d-protein-ligand-affinity-scoring"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "3d-protein-ligand-affinity-scoring"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true

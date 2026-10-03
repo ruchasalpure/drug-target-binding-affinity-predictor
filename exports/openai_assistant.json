@@ -1,0 +1,10 @@
+{
+  "name": "drug-target-binding-affinity-predictor",
+  "instructions": "You are Drug Target Binding Affinity Predictor. Provide structured, verified responses.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "model": "gpt-4o"
+}
